@@ -1,0 +1,21 @@
+This document is implemented for users using two OSes: Window and Ubuntu. If your local repository is in Window and you want to push any changes from Ubuntu, you can do the following steps:
+1. Open the terminal with Ctrl+Alt+T.
+2. Navigate into the local repository which is in Window from Ubuntu by use the following command syntax:
+	cd /media/username/diskname/directory-to-the-local-repository
+with: 'username' is the name of your HOME directory in Ubuntu
+      'diskname' is the disk label in Window
+      'directory-to-the-local-repository' is the directional path from the disk to the local repository in your Window
+3. If your update is the first time, you use: git init
+4. Choose which files or directories that you want to update to the remote repository, use one of the two following command:
+	git add "filename" --> if you just update specific files
+	git add . --> if you want to update all changes in your local repository compared to the last update
+5. Adding some notes about your update: What is updated? and the purpose of this update? and so on, use:
+	git commit -m 'some-comments-about-this-update'
+with 'some-comments-about-this-update' is some notes that you want to display in your update description in your remote repository
+6. Configure the user's email and user's name to your remote repository can recognize who you are (because your local repository in Window, but you update from Ubuntu, and two gits in two OSes are different), use:
+	git config user.email "yourname@example.com"
+	git config user.name "Your name"
+if you want to identify for all repositories that you have, you should add "-global", omitting this flag when you just want to set the identity only in this repository you are using
+7. After committed, merges files with both directories (local and remote), use:
+	git push -f origin master
+This is done.
