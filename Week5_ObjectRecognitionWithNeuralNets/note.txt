@@ -1,0 +1,2 @@
+Object recognition with neural nets
+In this module we look at why object recognition is difficult.
