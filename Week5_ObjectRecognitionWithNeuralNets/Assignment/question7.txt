@@ -1,0 +1,47 @@
+Model A: 5 dimensional embedding, 100 dimensional hidden layer
+Average Training CE 2.804
+Finished Training.
+Final Training CE 2.804
+
+Running validation ...
+Final Validation CE 2.826
+
+Running test ...
+Final Test CE 2.832
+Training took 264.08 seconds
+
+Model B: 50 dimensional embedding, 10 dimensional hidden layer
+Average Training CE 3.004
+Finished Training.
+Final Training CE 3.004
+
+Running validation ...
+Final Validation CE 3.014
+
+Running test ...
+Final Test CE 3.017
+Training took 236.38 seconds
+
+Model C: 50 dimensional embedding, 200 dimensional hidden layer
+Average Training CE 2.534
+Finished Training.
+Final Training CE 2.534
+
+Running validation ...
+Final Validation CE 2.607
+
+Running test ...
+Final Test CE 2.616
+Training took 358.95 seconds
+
+Model D: 100 dimensional embedding, 5 dimensional hidden layer
+Average Training CE 3.242
+Finished Training.
+Final Training CE 3.242
+
+Running validation ...
+Final Validation CE 3.247
+
+Running test ...
+Final Test CE 3.243
+Training took 273.97 seconds

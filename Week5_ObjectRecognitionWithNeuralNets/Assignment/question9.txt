@@ -1,0 +1,35 @@
+Model A: Momentum = 0.0
+Average Training CE 3.994
+Finished Training.
+Final Training CE 3.994
+
+Running validation ...
+Final Validation CE 3.953
+
+Running test ...
+Final Test CE 3.957
+Training took 178.26 seconds
+
+Model B: Momentum = 0.5
+Average Training CE 3.340
+Finished Training.
+Final Training CE 3.340
+
+Running validation ...
+Final Validation CE 3.262
+
+Running test ...
+Final Test CE 3.260
+Training took 188.02 seconds
+
+Model C: Momentum = 0.9
+Average Training CE 2.715
+Finished Training.
+Final Training CE 2.715
+
+Running validation ...
+Final Validation CE 2.717
+
+Running test ...
+Final Test CE 2.723
+Training took 186.34 seconds

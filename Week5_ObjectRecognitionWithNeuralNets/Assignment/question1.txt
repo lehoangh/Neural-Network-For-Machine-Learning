@@ -1,0 +1,21 @@
+Average Training CE 2.534
+Finished Training.
+Final Training CE 2.534
+
+Running validation ...
+Final Validation CE 2.604
+
+Running test ...
+Final Test CE 2.613
+Training took 396.55 seconds
+
+model = 
+
+  struct with fields:
+
+    word_embedding_weights: [250×50 double]
+      embed_to_hid_weights: [150×200 double]
+     hid_to_output_weights: [200×250 double]
+                  hid_bias: [200×1 double]
+               output_bias: [250×1 double]
+                     vocab: {1×250 cell}

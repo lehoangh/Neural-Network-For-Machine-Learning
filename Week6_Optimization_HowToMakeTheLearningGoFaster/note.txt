@@ -1,0 +1,1 @@
+We delve into mini-batch gradient descent as well as discuss adaptive learning rates.

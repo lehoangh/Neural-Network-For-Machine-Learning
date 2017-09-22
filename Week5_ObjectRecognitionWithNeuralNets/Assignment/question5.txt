@@ -1,0 +1,36 @@
+1 epochs:
+learning_rate = 0.001
+Average Training CE 4.431
+Finished Training.
+Final Training CE 4.431
+
+Running validation ...
+Final Validation CE 4.386
+
+Running test ...
+Final Test CE 4.393
+Training took 28.55 seconds
+
+learning_rate = 0.1
+Average Training CE 3.958
+Finished Training.
+Final Training CE 3.958
+
+Running validation ...
+Final Validation CE 3.311
+
+Running test ...
+Final Test CE 3.312
+Training took 39.82 seconds
+
+learning_rate = 10.0
+Average Training CE 4.704
+Finished Training.
+Final Training CE 4.704
+
+Running validation ...
+Final Validation CE 4.662
+
+Running test ...
+Final Test CE 4.668
+Training took 37.65 seconds
